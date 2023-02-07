@@ -1,5 +1,5 @@
 # Recursive fibonacci sequence implementation
 def recursive_fib(n):
-    if n == 0 or n == 1:
+    if n < 2:
         return n
-    return recursive_fib(n - 2) + recursive_fib(n - 1)
+    return recursive_fib(n - 1) + recursive_fib(n - 2)
