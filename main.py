@@ -10,6 +10,7 @@ from fibonacci.generator import generator_fib
 from fibonacci.lucas import lucas_fib
 from fibonacci.lucasrec import lucasrec_fib
 
+
 def main():
     recursive_range = range(0, 30, 5)
     lucas_range = [5, 12, 21, 42, 70, 101, 256, 589, 812, 1112, 1300]
